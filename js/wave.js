@@ -19,3 +19,12 @@ waveObj.prototype.draw=function(){
         }
     }
 }
+
+waveObj.prototype.born=function(){
+    for(var i=0;i<this.num;i++){
+        if(!this.alive[i]){
+            return;
+        }
+    }
+
+}
