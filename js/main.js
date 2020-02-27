@@ -20,6 +20,9 @@ var deltaTime;
 var mx;
 var my;
 
+var dust;
+var dustPic=[];
+
 var babyTail = [];
 var bigTail = [];
 var babyEye = [];
@@ -85,6 +88,14 @@ function init() {
     }
     wave = new momObj();
     wave.init();
+
+    for(var i=0;i<7;i++){
+        dustPic[i]=new Image()
+        dustPic[i].src='./src/dust'+i+'.png'
+    }
+
+    dust=new dustObj()
+    dust.init()
     
 }
 function gameloop() {
@@ -106,6 +117,8 @@ function gameloop() {
     momBabyCollision();
 
     data.draw();
+
+    dust.draw();
 }
 
 function onMousemove(e) {
