@@ -1,6 +1,7 @@
 # 爱心鱼小游戏 
-👉[DEMO]
-(https://yaseminli.github.io/tinyheart/tinyHeart.html)单页面小游戏。鼠标控制大鱼吃浮动的果实，再喂养给小鱼来计分。通过鼠标跟随、碰撞检测、canvas绘制等来实现。
+👉[DEMO](https://yaseminli.github.io/tinyheart/tinyHeart.html)
+
+❤️ 单页面小游戏。鼠标控制大鱼吃浮动的果实，再喂养给小鱼来计分。通过鼠标跟随、碰撞检测、canvas绘制等来实现。
 
 <img src='./tinyheart.png'/>
 
